@@ -26,13 +26,13 @@ class MainWindow:
         self.button_ok = Button(self.frame,text = "ok",width = 10)  
         self.button_cancel = Button(self.frame,text = "cancel",width = 10)  
   
-        self.text_name.grid(row = 0,column = 1 2)  
-        self.text_age.grid(row = 1,column = 1 2)  
-        self.text_sex.grid(row = 2,column = 1 2)  
+        self.text_name.grid(row = 0,column = 1)
+        self.text_age.grid(row = 1,column = 1)
+        self.text_sex.grid(row = 2,column = 1)
           
         self.button_ok.grid(row = 3,column = 0)  
         self.button_cancel.grid(row = 3,column = 1)  
         
         self.frame.mainloop()  
   
-frame = MainWindow() 
+frame = MainWindow()
